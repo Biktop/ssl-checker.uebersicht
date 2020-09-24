@@ -1,0 +1,6 @@
+{
+  "name": "SSL checker",
+  "description": "Check ssl expiration date of given domains",
+  "author": "Victor Savostin",
+  "email": "victor.savostinatgmail.com"
+}
