@@ -7,7 +7,7 @@
  * Created by Victor Savostin
  */
 
-export const command = 'ssl.widget/ssl.sh';
+export const command = './ssl-checker.widget/ssl.sh';
 
 // Refresh every X miliseconds
 export const refreshFrequency = 1000 * 60 * 60 * 24;

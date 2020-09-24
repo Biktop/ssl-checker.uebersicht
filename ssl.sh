@@ -1,6 +1,6 @@
 #!/bin/bash
 
-domains="ssl.widget/domains.txt"
+domains="./ssl-checker.widget/domains.txt"
 
 function process {
   local result=$(echo | openssl s_client -servername $1 -connect $1:$2 2>/dev/null | openssl x509 -noout -enddate | awk -F= '/^notAfter/ { print $2; exit }')
